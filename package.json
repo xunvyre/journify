@@ -20,13 +20,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jorgegarit/ice-blazers.git"
+    "url": "git+https://github.com/xunvyre/journify.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jorgegarit/ice-blazers/issues"
+    "url": "https://github.com/xunvyre/journify/issues"
   },
-  "homepage": "https://github.com/jorgegarit/ice-blazers#readme"
+  "homepage": "https://github.com/xunvyre/journify#readme"
 }

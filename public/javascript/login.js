@@ -20,7 +20,7 @@ async function loginFormHandler(event)
         }
         else
         {
-            alert(`Incorrect email or password!`);
+            alert(response.statusText);
         }
     }
 };
