@@ -1,0 +1,49 @@
+<!--title and desc from create journal-->
+<div>
+    <h2 class="journal-title">My Example Journal</h2>
+</div>
+<div>
+    <p class="journal-desc">
+        This is an example paragraph. I need to get this long enough to wrap.
+        The content of this paragraph will be dictated by user input from the create journal
+        screen.
+    </p>
+</div>
+<!--example for image formatting-->
+<div class="single-img card bg-light">
+    <img class="card-img-top img-preview" src="../../public/assets/images/placeholder-image.jpg" alt="">
+</div>
+<!--buttons are a permanent feature at the end of the images, but should only be visible to the creator of the journal-->
+<div class="col row">
+    <div class="dropdown">
+        <button class="btn add-btn btn-info dropdown-toggle" id="add-photo" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Add Photo
+        </button>
+        <div class="dropdown-menu" aria-labelledby="add-photo">
+            <input type="file" class="form-control-file new-journal dropdown-item" id="photo">
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="btn add-btn btn-info dropdown-toggle" id="share" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Share
+        </button>
+        <div class="dropdown-menu" aria-labelledby="share">
+            <input type="text" class="form-control-file new-journal dropdown-item" id="link" placeholder="Shareable Link Here">
+        </div>
+    </div>
+</div>
+<!--form for comments, name will be added from signup page, date function needed in dd/mm/yyyy-->
+<form class="form-group col-12">
+    <div>
+        <label for="commenting"></label>
+        <textarea class="form-control" id="commenting" placeholder="Add a comment." rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-info col">Submit</button>
+</form>
+<!--example for comment formatting-->
+<div class="journal-comment col-12">
+    <p>
+        This is an example comment!<br />
+        <span>09/13/2022 by Name Here</span>
+    </p>
+</div>

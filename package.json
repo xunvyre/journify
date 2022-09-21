@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-sesssion": "^1.15.5",
+    "inquirer": "^8.2.4",
+    "jest": "^29.0.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.23.0"
+  },
+  "name": "project2",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgegarit/ice-blazers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgegarit/ice-blazers/issues"
+  },
+  "homepage": "https://github.com/jorgegarit/ice-blazers#readme"
+}
