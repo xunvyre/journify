@@ -6,13 +6,22 @@ router.get('/', withAuth, (req, res) =>
 {
     Journal.findAll
     ({
-        attributes: ['id', 'user_id', 'title', 'entry'/*, example photo*/, 'updated_at'/*to organize journals by last updated*/],
+        attributes: ['id', 'user_id', 'title', 'entry'/*, example photo*/, 'updated_at'],
         order: [['updated_at', 'DESC']],
         include:
         [
             {
+                model: Image,
+                attributes: ['id', 'type', 'name', 'data', 'user_id', 'journal_id', 'created_at'],
+                include:
+                {
+                    model: User,
+                    attributes: ['username']
+                }
+            },
+            {
                 model: Comment,
-                attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
+                attributes: ['id', 'comment_text', 'journal_id', 'user_id', 'created_at'],
                 include:
                 {
                     model: User,
@@ -21,7 +30,7 @@ router.get('/', withAuth, (req, res) =>
             },
             {
                 model: User,
-                attributes: ['username'] //in case??
+                attributes: ['username']
             }
         ]
     })
