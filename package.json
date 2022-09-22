@@ -8,13 +8,14 @@
     "express-sesssion": "^1.15.5",
     "inquirer": "^8.2.4",
     "jest": "^29.0.3",
+    "multer": "^1.4.5-lts.1",
     "mysql2": "^2.3.3",
     "sequelize": "^6.23.0"
   },
-  "name": "project2",
+  "name": "Journify",
   "description": "",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
