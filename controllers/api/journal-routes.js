@@ -1,8 +1,7 @@
 const router = require('express').Router();
 const {User, Journal, Comment} = require('../../models');
-const withAuth = require('../../utils/auth');
 
-router.get('/', withAuth, (req, res) =>
+router.get('/', (req, res) =>
 {
     Journal.findAll
     ({
@@ -42,7 +41,7 @@ router.get('/', withAuth, (req, res) =>
     });
 });
 
-router.get('/:id', withAuth, (req, res) =>
+router.get('/:id', (req, res) =>
 {
     Journal.findOne
     ({
@@ -81,7 +80,7 @@ router.get('/:id', withAuth, (req, res) =>
     });
 });
 
-router.post('/', withAuth, (req, res) =>
+router.post('/', (req, res) =>
 {
     Journal.create
     ({
