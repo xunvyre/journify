@@ -6,13 +6,11 @@ JOURNIFY is a privacy-first photo journaling site that combines the ease of digi
 
 * [Future Development](https://github.com/xunvyre/journify#future-development)
 * [Contribution](https://github.com/xunvyre/journify#contribution)
-* [Credits](https://github.com/xunvyre/journify#credits)
+
 ## Contribution
 Xunvyre as part of the Ice Breaker Dev Team 2022
 ## Future Development
 Having a functional photo upload is the main priority for any future delvelopment. Eventually, user control and sharing functionalities will be added.
-## Credits
-Xunvyre as part of the Ice Breaker Dev Team 2022
 ## Contact
 Please reach out to me with any questions or suggestions!
 * Github: [xunvyre](https://github.com/xunvyre/)
